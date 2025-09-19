@@ -1,4 +1,5 @@
 ﻿Console.WriteLine("You are gliding down a calm jungle river in your kayak. The sound of birds and rushing water fills the air. Suddenly, a large orangutan sits upon a mossy rock in the middle of the river, blocking your path. He beats his chest, leans forward, and speaks:");
+Console.WriteLine("");
 Console.WriteLine("“Traveler, you shall not pass unless you answer my riddles! You have three chances. Fail, and I’ll send you back the way you came.”");
 Console.WriteLine("");
 Console.WriteLine("You are bewildered, yet curious.");
@@ -129,7 +130,7 @@ else // Player has no lives
 {
     Console.WriteLine($"“Enough! Your mind is too dull for my riddles. Back you go!”");
     Console.WriteLine();
-    Console.WriteLine("ENDING ENDING: TRY AGAIN");
+    Console.WriteLine("BAD ENDING: TRY AGAIN");
 }
 
 Console.WriteLine();
